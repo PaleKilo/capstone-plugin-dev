@@ -1,0 +1,19 @@
+{
+  "name": "meeting-dev",
+  "version": "0.2.0",
+  "description": "[테스트 전용] 대시보드 로컬 서버 기동/정지/종료 도구 (Dataiku 전환 시 제거)",
+  "userConfig": {
+    "dashboard_root": {
+      "type": "string",
+      "title": "대시보드 폴더 경로",
+      "description": "node src/middle/server.js 를 실행할 대시보드 폴더의 절대경로 (필수 — 미설정 시 서버를 기동할 수 없음)",
+      "default": ""
+    },
+    "port": {
+      "type": "string",
+      "title": "포트",
+      "description": "로컬 루프백 포트",
+      "default": "3000"
+    }
+  }
+}
